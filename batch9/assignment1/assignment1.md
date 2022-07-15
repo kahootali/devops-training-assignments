@@ -8,10 +8,15 @@
 - Answer the following questions in that file and each answer should be in a separate commit.
 
 Q1) Agile vs DevOps
+
 Q2) Define CI, Continuous Delivery & Continuous Deployment
+
 Q3) What are the benefits of Cloud Computing
+
 Q4) Difference b/w Git & Github
+
 Q5) Stages of Git
+
 Q6) 3 methods of git reset
 
 - Create a PR from this branch to your `main` branch
