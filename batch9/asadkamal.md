@@ -27,3 +27,6 @@ Q3) What are the benefits of Cloud Computing?
 •	State of art infrastructure is readily available 
 •	99.99% or more uptime
 
+Q4) Difference b/w Git & GitHub? 
+Git is a version control system that lets you manage and keep track of your source code history and GitHub is an online database that allows you to keep track of and share your Git version control projects outside of your local computer/server unlike GIT
+
