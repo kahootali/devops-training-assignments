@@ -30,3 +30,10 @@ Q3) What are the benefits of Cloud Computing?
 Q4) Difference b/w Git & GitHub? 
 Git is a version control system that lets you manage and keep track of your source code history and GitHub is an online database that allows you to keep track of and share your Git version control projects outside of your local computer/server unlike GIT
 
+Q5) Stages of Git? 
+There are 3 stages in local
+•	Working directory
+•	Staging area 
+•	Local area/repo
+And 1 stage in remote 
+•	Remote repository
