@@ -11,3 +11,7 @@ Cloud computing provides you with the whole setup of enivornment where you dont 
 Difference between git and github 
 Git is a version control system which keeps tracks of changes in source code during development while github is a web-based git repository hosting service. It also offers all the distributed version control services and source code management of Git adding some of its own functionality.
 
+**Question 5** 
+Stages of git 
+There are four stages of git.
+Working Directory, Staging Area, Local Repository, and Remote Repository
