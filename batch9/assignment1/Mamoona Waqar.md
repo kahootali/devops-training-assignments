@@ -15,3 +15,8 @@ Git is a version control system which keeps tracks of changes in source code dur
 Stages of git 
 There are four stages of git.
 Working Directory, Staging Area, Local Repository, and Remote Repository
+
+**Question 6** 
+Three methods of git reset 
+Three stages of git reset are Soft, mixed and hard
+Soft refers to git changes undone to staging area. Mixed will delete changes from local repository as well as from the staging area and takes everything back to working directory. Hard reset means all the changes are deleted permanently bringing to the original state.
