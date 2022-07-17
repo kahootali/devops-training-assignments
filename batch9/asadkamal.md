@@ -19,4 +19,11 @@ Continuous Deployment
 When the change is approved by CI/continuous delivery, the feature or build artifact are deployed to production environment manually and get feedback from the user. 
 It can use master branch strategy (if the code merge in master so automatically deployed in production). 
 
+Q3) What are the benefits of Cloud Computing?
+•	On demand computing resource 
+•	Resource scaling up and down is very easy and cheap
+•	Quick and easy to meet demand 
+•	Pay for what and how much is used 
+•	State of art infrastructure is readily available 
+•	99.99% or more uptime
 
