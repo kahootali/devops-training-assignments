@@ -7,3 +7,7 @@ Continuous integration refers to continuously merging code into central reposito
 **Question 3** 
 Benefits of Cloud Computing 
 Cloud computing provides you with the whole setup of enivornment where you dont need to manage yourself. Cloud computing is easily scalable according to the needs. Easy access from anywhere in the world.
+**Question 4** 
+Difference between git and github 
+Git is a version control system which keeps tracks of changes in source code during development while github is a web-based git repository hosting service. It also offers all the distributed version control services and source code management of Git adding some of its own functionality.
+
