@@ -37,3 +37,8 @@ There are 3 stages in local
 •	Local area/repo
 And 1 stage in remote 
 •	Remote repository
+
+Q6) 3 methods of git reset
+•	git reset –mixed: that will uncommit and move to previous commit 
+•	 git reset --soft: it will uncommit, but file will be in staging 
+•	 git reset --hard: it will uncommit, remove from stage, remove from local repo
