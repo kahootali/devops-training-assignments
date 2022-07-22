@@ -64,3 +64,17 @@ docker logs "assignment-2"
 ```
 
 ---
+
+<br />
+
+:bulb: **Question No. 6: Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html.**
+
+```
+docker exec "assignment-2" cat /usr/share/nginx/html/index.html
+```
+
+---
+
+<br />
+
+Done :tada: , Thanks for reading. :relaxed:
