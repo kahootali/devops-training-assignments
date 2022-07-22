@@ -40,3 +40,15 @@ Docker uses a client-server architecture. The Docker client talks to the Docker 
 ![architecture](https://user-images.githubusercontent.com/101370133/180474083-b9cf475c-7da1-481a-9ab7-215f5558282f.svg)
 
 ---
+
+<br />
+
+:bulb: **Question No. 4: Write command to create an nginx container in detached mode with name `assignment-2` running on host port `9090` and container port `80` on a custom network named `assignment-2`.**
+
+<br />
+
+```
+docker run --name "assignment-2" -p 9090:80 -d nginx
+```
+
+---
