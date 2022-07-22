@@ -26,3 +26,17 @@
 | Speed | The application in Docker containers starts with no delay since the OS is already up and running.<br /><br />These containers were basically designed to save time in the deployment process of an application. | It takes a much longer time than it takes for a container to run applications.<br /><br />To deploy a single application, Virtual Machines need to start the entire OS, which would cause a full boot process.
 
 ---
+
+<br />
+
+:bulb: **Question No. 3: Explain Docker Architecture.**
+
+<br />
+
+Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.
+
+<br />
+
+![architecture](https://user-images.githubusercontent.com/101370133/180474083-b9cf475c-7da1-481a-9ab7-215f5558282f.svg)
+
+---
