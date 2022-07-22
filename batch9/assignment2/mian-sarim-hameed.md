@@ -52,3 +52,15 @@ docker run --name "assignment-2" -p 9090:80 -d nginx
 ```
 
 ---
+
+<br />
+
+:bulb: **Question No. 5: Write command to see logs of the above container.**
+
+<br />
+
+```
+docker logs "assignment-2"
+```
+
+---
