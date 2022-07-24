@@ -2,7 +2,8 @@
 
 Q1) Share screenshot of the above Branch Protection of `main` branch
 
-Ans: 
+Ans: ![scrrenShot](https://user-images.githubusercontent.com/7136590/180639854-cc7016dc-a811-48cf-b56d-cc025038247d.png)
+
 
 Q2) Explain Docker Containers vs VMs
 
