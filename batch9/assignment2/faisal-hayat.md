@@ -20,3 +20,7 @@ Docker’s architecture is also client-server based. However, it’s a little mo
 Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
 
 docker container run -d --publish 9090:80 --name assignment-2 nginx
+
+Q)5 Write command to see logs of above container?
+
+docker container logs assignment-2
