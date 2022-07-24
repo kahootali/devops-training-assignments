@@ -20,3 +20,7 @@ Cloud Computing has the advantage that the code is much  more secure than being 
 4. Differences between Git and Github
 
 Git is the version control system and is the name of the software. Github is the service which allows to build and maintain repositories which are hosted at www.github.com. Github offers other services such as Github pages, Github actions etc as well.
+
+5. Stage of Git
+
+The stages of git are modified, staged and commit.
