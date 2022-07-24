@@ -24,3 +24,7 @@ docker container run -d --publish 9090:80 --name assignment-2 nginx
 Q)5 Write command to see logs of above container?
 
 docker container logs assignment-2
+
+Q6) Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
+
+docker exec "assignment-2" cat /usr/share/nginx/html/index.html
