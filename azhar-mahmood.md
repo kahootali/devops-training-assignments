@@ -8,3 +8,5 @@ What are the benefits of Cloud Computing?
 Cost Savings, Security, Flexibility, Mobility, Insight, Increased Collaboration, Quality Control, Disaster Recovery, Loss Prevention, Automatic Software Updates, Competitive Edge, Sustainability
 What is Agile & DevOps?
 DevOps is a culture, fostering collaboration amongst all participants involved in the development and maintenance of software. Agile can be described as a development methodology designed to maintain productivity and drive releases with the common reality of changing needs.
+What are the three methods of GIT reset?
+Three methods are --soft, --mixed , and --hard can be passed to git reset .
