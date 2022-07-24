@@ -6,3 +6,5 @@ Write command to create an nginx container in detached mode with name assignment
 $ sudo docker run --name assignment-2 -p 9090:80 -d nginx
 Write the command to see the logs of the above container?
 docker logs assignment-2
+Write commands to Exec into the container?
+docker exec -it assignment-2 sh
