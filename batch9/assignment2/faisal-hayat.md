@@ -16,3 +16,7 @@ Docker’s architecture is also client-server based. However, it’s a little mo
   - Docker Objects: These are your main components of Docker: your containers and images. We mentioned already that containers are the placeholders for your software, and can be read and written to. Container images are read-only, and used to create new containers.
   - Docker Daemon: A background process responsible for receiving commands and passing them to the containers via command line.
   - Docker Registry: Commonly known as Docker Hub, this is where your container images are stored and retrieved.
+
+Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
+
+docker container run -d --publish 9090:80 --name assignment-2 nginx
