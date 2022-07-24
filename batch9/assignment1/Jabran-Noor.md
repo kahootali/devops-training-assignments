@@ -16,3 +16,7 @@ Continuous Deployment is the deployment of code in production directly as it pas
 3. Benefits of Cloud Computing
 
 Cloud Computing has the advantage that the code is much  more secure than being on the local computers. The code can be secured at lower costs and lots of apps can be integrated with cloud computing. The log maintainence is easier and more robust. 
+
+4. Differences between Git and Github
+
+Git is the version control system and is the name of the software. Github is the service which allows to build and maintain repositories which are hosted at www.github.com. Github offers other services such as Github pages, Github actions etc as well.
