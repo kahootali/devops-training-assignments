@@ -1,3 +1,4 @@
+
 1. Agile vs Devops
 
 Agile is a development methodology of philosophy of software development. This features elements such as continuous delivery, sprints, testing, minimum viable product etc.
@@ -12,4 +13,6 @@ Continuous Delivery is getting all the code in the hands of the user quickly and
 
 Continuous Deployment is the deployment of code in production directly as it passes automated testing.
 
- 
+3. Benefits of Cloud Computing
+
+Cloud Computing has the advantage that the code is much  more secure than being on the local computers. The code can be secured at lower costs and lots of apps can be integrated with cloud computing. The log maintainence is easier and more robust. 
