@@ -6,3 +6,5 @@ Define CI & CD?
 Continuous Delivery is the automation of steps to safely get changes into production. Where Continuous Deployment focuses on the actual deployment, Continuous Delivery focuses on the release and release strategy. An elusive goal would be a “push of a button” to get changes into production.
 What are the benefits of Cloud Computing?
 Cost Savings, Security, Flexibility, Mobility, Insight, Increased Collaboration, Quality Control, Disaster Recovery, Loss Prevention, Automatic Software Updates, Competitive Edge, Sustainability
+What is Agile & DevOps?
+DevOps is a culture, fostering collaboration amongst all participants involved in the development and maintenance of software. Agile can be described as a development methodology designed to maintain productivity and drive releases with the common reality of changing needs.
