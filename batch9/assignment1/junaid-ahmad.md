@@ -38,4 +38,9 @@ Benefits of cloud computing
 Difference b/w Git & Github
 Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub isdesigned to help you better manage them.
 
+Stages of Git
+1. Modified
+2. Stages
+3. Commit
+
 
