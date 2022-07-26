@@ -43,4 +43,8 @@ Stages of Git
 2. Stages
 3. Commit
 
+3 methods of git reset
+git reset --soft
+git reset --mixed
+git reset --hard
 
