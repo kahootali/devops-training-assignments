@@ -70,3 +70,28 @@ It looks similar to a CMD command. However, the difference is that it does not i
 I didn't find the exact above mentioned dockerfile from the slides provided my Dice Analytics. Now the time is extreamly short for submitting this assignment. I will provide the answer separately on the direct message. Thanks :relaxed:
 
 ---
+
+<br />
+
+:bulb: **Question No. 7: Run mysql container using the official image, by persisting data and passing environment variables to set username & password… You can see the information of how to persist and information here ?**
+
+<br />
+
+First, I created a docker volume for persisting mysql data locally. Here is the docker command for thet.
+
+```
+docker volume create mysql
+```
+
+then,
+
+```
+docker run --name="mysql_prod_server" -e MYSQL_ROOT_PASSWORD="root123" -e MYSQL_USER="miansarimhameed" -e MYSQL_PASSWORD="msh123" -v mysql:/var/lib/mysql -d mysql:8.0
+```
+
+---
+
+<br />
+
+
+Done :tada: , Thanks for reading. :relaxed:
