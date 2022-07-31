@@ -62,3 +62,11 @@ Using a CMD command, you will be able to set a default command. This will be exe
 It looks similar to a CMD command. However, the difference is that it does not ignore the parameters when you run a container with CLI parameters. You can override the ENTRYPOINT with the predefined tag.
 
 ---
+
+<br />
+
+:bulb: **Question No. 6: Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it.**
+
+I didn't find the exact above mentioned dockerfile from the slides provided my Dice Analytics. Now the time is extreamly short for submitting this assignment. I will provide the answer separately on the direct message. Thanks :relaxed:
+
+---
