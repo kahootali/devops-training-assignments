@@ -33,4 +33,11 @@ An ENTRYPOINT command, unlike CMD, does not ignore additional parameters that yo
 
 Q6) Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it
 
+
+![bad image time](https://user-images.githubusercontent.com/7136590/182092117-fa82f64e-5fdb-4c0f-b2fb-9aeb64ffe0f4.png)
+
+![bad Image size](https://user-images.githubusercontent.com/7136590/182092142-6ece0610-16d1-455f-9e55-b5cedfdfbccc.png)
+
+![good docker file](https://user-images.githubusercontent.com/7136590/182092184-628e88c9-2762-4faa-909f-b8b636815a8a.png)
+
 Q7) Run mysql container using the official image, by persisting data and passing environment variables to set username & password… You can see the information of how to persist and information here
