@@ -28,3 +28,8 @@ Q#5 Explain RUN vs CMD vs Entrypoint
 Q#6 Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it
 
 	Didn't find the file in slides.
+
+Q#7 Run mysql container using the official image, by persisting data and passing environment variables to set username & password… You can see the information of how to persist and information here
+
+	1- docker volume create mysql
+	2- docker run --name="mysql_prod_server" -e MYSQL_ROOT_PASSWORD="root123" -e MYSQL_USER="miansarimhameed" -e MYSQL_PASSWORD="msh123" -v mysql:/var/lib/mysql -d mysql:8.0
