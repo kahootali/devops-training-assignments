@@ -211,9 +211,6 @@ sudo docker push mihmood/diceanalytics:v1.0
 ubuntu@ip-172-31-94-39:~$ sudo docker tag a7c71b75e8e7 mihmood/diceanalytics:v1.0
 ubuntu@ip-172-31-94-39:~$ sudo docker login
 Authenticating with existing credentials...
-WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
-Configure a credential helper to remove this warning. See
-https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 Login Succeeded
 
@@ -233,3 +230,12 @@ All other labs were also done, but file was geeting too big, later realized.
 
 -------------------------------------------------------
 -------------------------------------------------------
+
+Q2) How to leverage cache using Dockerfiles
+
+The commands that are freuently changed, keep them in the lower part of the Docker file. While the commands that remain same must be kept in the start of the Docker file.
+This way, when we build the image, it will use the cache. As the Layers are saved and shared in docker. So it will use the Chache for those same commands.
+
+-------------------------------------------------------
+-------------------------------------------------------
+
