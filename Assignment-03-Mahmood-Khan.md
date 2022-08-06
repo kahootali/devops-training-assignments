@@ -249,3 +249,13 @@ We can selectively copy artifacts from one stage to another, leaving behind ever
 -------------------------------------------------------
 -------------------------------------------------------
 
+Q4) Explain containers vs Image
+Image are used to Run Containers. Container are running version of Images. 
+Images can exist without containers, whereas a container needs to run an image to exist. 
+Therefore, containers are dependent on images and use them to construct a run-time environment and run an application.
+Multiple containers can share the same image.
+Images can be created from 'scratch'. Downloaded from a resgitry (Dockerhub, ECR, etc).
+
+-------------------------------------------------------
+-------------------------------------------------------
+
