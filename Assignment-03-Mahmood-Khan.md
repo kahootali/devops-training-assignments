@@ -216,16 +216,20 @@ Configure a credential helper to remove this warning. See
 https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 Login Succeeded
+
 ubuntu@ip-172-31-94-39:~$ sudo docker push mihmood/diceanalytics:v1.0
 The push refers to repository [docker.io/mihmood/diceanalytics]
 2f158efde395: Pushed
 629d9dbab5ed: Mounted from library/ubuntu
 v1.0: digest: sha256:82add61ad2ae7f493f6b4050c35adb44373b14830a4ac472bb021fcd6066f6f6 size: 736
+
 ubuntu@ip-172-31-94-39:~$
+
 <<< output ends.
 
 -------------------------------------------------------
 
 All other labs were also done, but file was geeting too big, later realized.
 
+-------------------------------------------------------
 -------------------------------------------------------
