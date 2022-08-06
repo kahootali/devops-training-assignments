@@ -226,7 +226,7 @@ ubuntu@ip-172-31-94-39:~$
 
 -------------------------------------------------------
 
-All other labs were also done, but file was geeting too big, later realized.
+All other labs were also done, but file was getting too big, later realized.
 
 -------------------------------------------------------
 -------------------------------------------------------
@@ -235,6 +235,16 @@ Q2) How to leverage cache using Dockerfiles
 
 The commands that are freuently changed, keep them in the lower part of the Docker file. While the commands that remain same must be kept in the start of the Docker file.
 This way, when we build the image, it will use the cache. As the Layers are saved and shared in docker. So it will use the Chache for those same commands.
+
+-------------------------------------------------------
+-------------------------------------------------------
+
+Q3) What are multi-stage builds
+
+We can use this to minimize the size of our image. 
+With multi-stage builds, we use multiple FROM statements in our Dockerfile.
+Each FROM instruction can use a different base, and each of them begins a new stage of the build.
+We can selectively copy artifacts from one stage to another, leaving behind everything we don’t want in the final image.
 
 -------------------------------------------------------
 -------------------------------------------------------
