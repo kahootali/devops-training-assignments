@@ -268,3 +268,14 @@ Entrypoint: It is a builtime command. Takes Arguments from the CMD command. Cann
 -------------------------------------------------------
 -------------------------------------------------------
 
+Q6) Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it
+
+REPOSITORY         TAG       IMAGE ID       CREATED          SIZE
+python-app         latest    21638dfc04bd   43 minutes ago   477MB
+
+>> This was taken after building improving the file.
+Time for build was not displayed, as was Displayed during the Lecture. I also tried google to see the image build time but was not successfull. Help would be good in this area.
+
+-------------------------------------------------------
+-------------------------------------------------------
+
