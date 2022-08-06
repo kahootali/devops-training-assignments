@@ -279,3 +279,58 @@ Time for build was not displayed, as was Displayed during the Lecture. I also tr
 -------------------------------------------------------
 -------------------------------------------------------
 
+Q7) Run mysql container using the official image, by persisting data and passing environment variables to set username & password… You can see the information of how to persist and information here
+
+
+Solution:
+Final Command:
+sudo docker run --name mahmood-db-mysql-05 -v /home/ubuntu/dice_working/mysql_container_lab/mysql_vol:/var/lib/mysql -e MYSQL_USER=mahmood1 -e MYSQL_PASSWORD -e MYSQL_ROOT_PASSWORD=12345 -d mysql:8.0.30
+
+sudo docker ps -a   # To see your container running
+sudo docker logs mahmood-db-mysql-05
+sudo docker exec -it mahmood-db-mysql-05 bash
+
+>>> Below is the output after connecting to the MySQL DB.
+ubuntu@ip-172-31-94-39:~$ sudo docker exec -it mahmood-db-mysql-05 bash
+bash-4.4# mysql -u root -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.30 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| dbtest             |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.02 sec)
+
+mysql>
+
+
+<<<output ends<<
+
+This above db was created in another mysql containe, but is visible here as well.
+
+
+		X------------------------------------  End-of-File ------------------------------------X
+
+
+
+
+
+
+ 
