@@ -259,3 +259,12 @@ Images can be created from 'scratch'. Downloaded from a resgitry (Dockerhub, ECR
 -------------------------------------------------------
 -------------------------------------------------------
 
+Q5) Explain RUN vs CMD vs Entrypoint
+
+Run: Run is a build-time command. Run a command in New Container. It will run the steps for example if we need any package to be installed that we need in the newly created container.
+CMD:  It is a Run-time command. It is used to pass arguments to the Entrypoint command. CMD can be over-ridden at the start time of container.
+Entrypoint: It is a builtime command. Takes Arguments from the CMD command. Cannot be over-ridden at start time of contaner.
+
+-------------------------------------------------------
+-------------------------------------------------------
+
