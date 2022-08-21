@@ -137,4 +137,28 @@ counter   1         1         1       96s
 
 
 --------------------------------------------------------------------------XX
+Lab: Deployments
+
+File: /labs-working/k8s-labs/module-1/deployment.yaml
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f deployment.yaml
+deployment.apps/counter created
+
+# Now see the deployment, replicaset and pods by running:
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get deployment,replicaset,pods
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/counter   1/1     1            1           18s
+
+NAME                                 DESIRED   CURRENT   READY   AGE
+replicaset.apps/counter              1         1         1       40h
+replicaset.apps/counter-7dd5d76bb6   1         1         1       18s
+
+NAME                           READY   STATUS    RESTARTS   AGE
+pod/counter                    1/1     Running   0          40h
+pod/counter-7dd5d76bb6-q64gz   1/1     Running   0          18s
+pod/counter-multi              3/3     Running   0          40h
+
+
+--------------------------------------------------------------------------XX
 
