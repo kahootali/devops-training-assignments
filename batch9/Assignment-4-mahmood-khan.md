@@ -161,4 +161,24 @@ pod/counter-multi              3/3     Running   0          40h
 
 
 --------------------------------------------------------------------------XX
+Lab: Scale Deployments
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl scale deployment counter --replicas=3
+deployment.apps/counter scaled
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get deployment,replicaset,pods
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/counter   3/3     3            3           2m34s
+
+NAME                                 DESIRED   CURRENT   READY   AGE
+replicaset.apps/counter              1         1         1       40h
+replicaset.apps/counter-7dd5d76bb6   3         3         3       2m34s
+
+NAME                           READY   STATUS    RESTARTS   AGE
+pod/counter                    1/1     Running   0          40h
+pod/counter-7dd5d76bb6-cqwpr   1/1     Running   0          8s
+pod/counter-7dd5d76bb6-q64gz   1/1     Running   0          2m34s
+pod/counter-7dd5d76bb6-r628k   1/1     Running   0          8s
+pod/counter-multi              3/3     Running   0          40h
+
+--------------------------------------------------------------------------XX
 
