@@ -181,4 +181,34 @@ pod/counter-7dd5d76bb6-r628k   1/1     Running   0          8s
 pod/counter-multi              3/3     Running   0          40h
 
 --------------------------------------------------------------------------XX
+Lab: ROLLING UPDATE A DEPLOYMENT
+
+kubectl set image deployment/counter counter=busybox:1
+
+#Result:
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl set image deployment/counter counter=busybox:1
+deployment.apps/counter image updated
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get po
+NAME                       READY   STATUS        RESTARTS   AGE
+counter                    1/1     Running       0          40h
+counter-75757784dc-gwrz8   1/1     Running       0          8s
+counter-75757784dc-nbzrp   1/1     Running       0          5s
+counter-75757784dc-qjcsn   1/1     Running       0          6s
+counter-7dd5d76bb6-cqwpr   1/1     Terminating   0          63s
+counter-7dd5d76bb6-q64gz   1/1     Terminating   0          3m29s
+counter-7dd5d76bb6-r628k   1/1     Terminating   0          63s
+counter-multi              3/3     Running       0          40h
+
+# After some time
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get po
+NAME                       READY   STATUS    RESTARTS   AGE
+counter                    1/1     Running   0          40h
+counter-75757784dc-gwrz8   1/1     Running   0          68s
+counter-75757784dc-nbzrp   1/1     Running   0          65s
+counter-75757784dc-qjcsn   1/1     Running   0          66s
+counter-multi              3/3     Running   0          40h
+
+--------------------------------------------------------------------------XX
 
