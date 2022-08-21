@@ -44,5 +44,7 @@ Kube Proxy will assign the IP and also add the Ip into its routing table.
 
 --------------------------------------------------------------------------XX
 
+All Labs were Done and commands and output are listed below:
+
 
 
