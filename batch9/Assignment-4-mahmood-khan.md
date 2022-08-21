@@ -211,4 +211,14 @@ counter-75757784dc-qjcsn   1/1     Running   0          66s
 counter-multi              3/3     Running   0          40h
 
 --------------------------------------------------------------------------XX
+Lab: Labels
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get po -l app=counter
+NAME                       READY   STATUS    RESTARTS   AGE
+counter                    1/1     Running   0          40h
+counter-75757784dc-gwrz8   1/1     Running   0          106s
+counter-75757784dc-nbzrp   1/1     Running   0          103s
+counter-75757784dc-qjcsn   1/1     Running   0          104s
+
+--------------------------------------------------------------------------XX
 
