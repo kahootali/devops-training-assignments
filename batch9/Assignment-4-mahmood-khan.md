@@ -125,4 +125,16 @@ counter-multi   3/3     Running   0          7s
 ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$
 
 --------------------------------------------------------------------------XX
+Lab: RepilcaSet
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ vi replicaset.yaml
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f replicaset.yaml
+replicaset.apps/counter created
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get rs
+NAME      DESIRED   CURRENT   READY   AGE
+counter   1         1         1       96s
+
+
+--------------------------------------------------------------------------XX
 
