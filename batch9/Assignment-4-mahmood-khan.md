@@ -112,4 +112,17 @@ ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl logs counter
 
 
 --------------------------------------------------------------------------XX
+Lab: Multi-Container. Terminal Output:
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ vi multi-container.yaml
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f multi-container.yaml
+pod/counter-multi created
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get pods
+NAME            READY   STATUS    RESTARTS   AGE
+
+counter-multi   3/3     Running   0          7s
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$
+
+--------------------------------------------------------------------------XX
 
