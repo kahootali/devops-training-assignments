@@ -91,3 +91,25 @@ kube-system   storage-provisioner                1/1     Running   1 (23m ago)  
 
 --------------------------------------------------------------------------XX
 
+Lab: Single Container. Terminal Output:
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ ls
+backend.yaml            deployment-rolling-update.yaml  external-name.yaml  golang-api.yaml  multi-container.yaml  single-container.yaml
+busybox-with-curl.yaml  deployment.yaml                 frontend.yaml       golang-svc.yaml  replicaset.yaml       ui-app.yaml
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ vi single-container.yaml
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f single-container.yaml
+pod/counter created
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl get pods
+NAME      READY   STATUS    RESTARTS   AGE
+counter   1/1     Running   0          12s
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl logs counter
+0: Fri Aug 19 22:19:41 UTC 2022: Kubernetes single container in 1 Pod
+1: Fri Aug 19 22:19:46 UTC 2022: Kubernetes single container in 1 Pod
+2: Fri Aug 19 22:19:51 UTC 2022: Kubernetes single container in 1 Pod
+3: Fri Aug 19 22:19:56 UTC 2022: Kubernetes single container in 1 Pod
+4: Fri Aug 19 22:20:01 UTC 2022: Kubernetes single container in 1 Pod
+
+
+--------------------------------------------------------------------------XX
+
