@@ -221,4 +221,18 @@ counter-75757784dc-nbzrp   1/1     Running   0          103s
 counter-75757784dc-qjcsn   1/1     Running   0          104s
 
 --------------------------------------------------------------------------XX
+Lab: Microservices (Frontend & Backend)
+
+We will be deploying the frontend & backend in Kubernetes using Services & Deployments.
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f backend.yaml
+deployment.apps/python-backend created
+service/backend created
+
+ubuntu@ip-172-31-19-1:~/labs-working/k8s-labs/module-1$ kubectl apply -f frontend.yaml
+deployment.apps/node-frontend created
+service/frontend created
+
+--------------------------------------------------------------------------XX
+--------------------------------------------------------------------------XX
 
