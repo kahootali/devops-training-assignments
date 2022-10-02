@@ -1,3 +1,4 @@
+
 1) . Agile is the practice adapted by companies to maintain the project timeline to manage the devolopment enviornment , to make the project time efficient as well as to deliver the product to stakeholders in sprints rather than in a single instance, while devops is the practice for the developers to adapt a efficient way of managing development and operation site as well for quick delivery of the product and to track the history of changes and watch the state(health) of the product as well.
 2) . continious integration is the process when developers merge their codes to the main branch after running automated test cases , it focuses mainly on testing automation to check final application is working or not after pushing it to the main branch.
      Continious delivery is the extension of CI but it helps you to release the application on daily, weekly basis and is benificial for troubleshooting
