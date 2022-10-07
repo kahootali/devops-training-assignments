@@ -52,3 +52,12 @@ In the previous section we learnt about modification, now let’s look at the se
 
 • Commit:
 This is the final stage, as this stage finally applies the new changes to the remote repository. Looking at the previous analogy, this is your ‘Go’ position. So, a commit is a set of new files that are being added to a project as part of the modification. Each commit represents the changes made to project in the past, with the details about the time at which commit was made and the author of the code. So, finally when you make a commit, and it gets committed, then this simply means that you have successfully applied a certain modification to the code.
+# - 3 methods of git reset?
+The inner workings of git reset
+I like to think of git reset as a command that reverses the process described above (introducing a change to the working dir, adding it to the index, and then commiting it to the repository).
+
+Git reset has three operating modes — --soft, --mixed, or --hard. I see them as three stages:
+
+Stage 1 — update HEAD — git reset --soft
+Stage 2 — update index — git reset --mixed
+Stage 3 — update working dir — git reset --hard
