@@ -8,3 +8,6 @@ docker container run -d --publish 9090:80 image-name
  First of all, to list all running containers, use the docker ps command. Then, with the docker logs command you can list the logs for a particular container.
 docker container run -it image-name
 docker container logs container_name/id
+# Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
+ The command is given below:
+ docker run --name mynginx1 -p 80:80 -d nginx
