@@ -2,6 +2,20 @@
 
 # Q2) Explain Docker Containers vs VMs
 
+##Docker Containers
+
+OS level virtualisation
+light weight
+Fast
+Simply isolated processes 
+Memory efficient
+
+##VMs
+
+Hardware level virtualisation
+Shared apps
+Dedicated memory
+
 # Q3) Explain Docker Architecture
 
 # Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
