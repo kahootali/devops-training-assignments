@@ -25,7 +25,11 @@
 
 # Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
 
+docker container run -d --publish 9090:80 assignment-2
+
 # Q5) Write command to see logs of the above container
+
+docker container logs
 
 # Q6) Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
 
