@@ -2,19 +2,19 @@
 
 # Q2) Explain Docker Containers vs VMs
 
-##Docker Containers
+## Docker Containers
 
-OS level virtualisation
-light weight
-Fast
-Simply isolated processes 
-Memory efficient
+- OS level virtualisation
+- light weight
+- Fast
+- Simply isolated processes 
+- Memory efficient
 
-##VMs
+## VMs
 
-Hardware level virtualisation
-Shared apps
-Dedicated memory
+- Hardware level virtualisation
+- Shared apps
+- Dedicated memory
 
 # Q3) Explain Docker Architecture
 
