@@ -1,0 +1,2 @@
+# Explain Docker Containers vs VMs.
+The key differentiator between containers and virtual machines is that virtual machines virtualize an entire machine down to the hardware layers and containers only virtualize software layers above the operating system level.
