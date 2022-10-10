@@ -28,13 +28,19 @@
 
 # Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
 
-docker container run -d --publish 9090:80 assignment-2
+sudo docker container run -d --publish 9090:80 --name assignment-2 nginx
 
 # Q5) Write command to see logs of the above container
 
-docker container logs assignment-2
+sudo docker logs assignment-2
+
+sudo docker ps
 
 # Q6) Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
+
+step-1 sudo docker container exec -it assignment-2 /bin/bash 
+step-2  cat /usr/share/nginx/html/index.html
+
 
 Create a PR from this branch to your main branch
 Now create a PR from your main branch to the parent's(kahootali/devops-training-assignment) repo main branch
