@@ -41,9 +41,3 @@ sudo docker ps
 step-1 sudo docker container exec -it assignment-2 /bin/bash 
 step-2  cat /usr/share/nginx/html/index.html
 
-
-Create a PR from this branch to your main branch
-Now create a PR from your main branch to the parent's(kahootali/devops-training-assignment) repo main branch
-Link the PR to the issue that you created so that the issue gets closed automatically when PR gets merged
-Handle any comments on the review
-Get this PR merged into the parent repo
