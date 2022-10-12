@@ -36,7 +36,8 @@
 
 # Q4) Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 and container port 80 on a custom network named assignment-2
 
-sudo docker network create --driver
+sudo docker network create 9090:80
+
 sudo docker container run --net 9090:80 assignment-2 
 
 sudo docker container run -d --publish 9090:80 --name assignment-2 nginx
