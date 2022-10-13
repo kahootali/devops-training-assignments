@@ -26,13 +26,21 @@ The Docker client and daemon communicate using a REST API, over UNIX sockets or 
 Q4) Write command to create an nginx container in detached mode with name `assignment-2` running on host port `9090` and container port `80` on a custom network named `assignment-2`
 ----------------------------------------------------------------------------------------------------
 
+docker run --name assignment-2 -p 9090:80 -d nginx 
+
+docker network create assignment-2 // Creates a custom network named assignment-2
+
 
 
 
 Q5) Write command to see logs of the above container
 ------------------------------------------------------
+docker logs assignment-2                                    
+
+
 
 
 Q6) Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
 -----------------------------------------------------------------------------------------------------
 
+image.png
