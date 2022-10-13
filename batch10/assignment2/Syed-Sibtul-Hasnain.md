@@ -20,8 +20,13 @@ Docker uses a client-server architecture. The Docker client talks to the Docker 
 
 The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.
 
+
+
+
 Q4) Write command to create an nginx container in detached mode with name `assignment-2` running on host port `9090` and container port `80` on a custom network named `assignment-2`
 ----------------------------------------------------------------------------------------------------
+
+
 
 
 Q5) Write command to see logs of the above container
