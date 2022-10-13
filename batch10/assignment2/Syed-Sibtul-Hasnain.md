@@ -1,11 +1,10 @@
-
-1) Share screenshot of the above Branch Protection of `main` branch
+Q1) Share screenshot of the above Branch Protection of `main` branch
 --------------------------------------------------------------------
 
 
 Q2) Explain Docker Containers vs VMs
 --------------------------------------
-Hello World 
+
 
 Q3) Explain Docker Architecture
 ---------------------------------
