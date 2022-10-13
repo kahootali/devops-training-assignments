@@ -3,7 +3,7 @@ hasnain.tech hosted on GitHub Pages, a test portfolio.
 
 
 
-Question 1: Agile vs DevOps
+Question No.1 Agile vs DevOps
 -------------------------------------------------------------------------------------------------------------
 Answer:
 
@@ -12,7 +12,7 @@ The most important thing to know about DevOps versus agile is that they are not 
 
 
 
-Question 2: CI and CD
+Question No.2 CI and CD
 -------------------------------------------------------------------------------------------------------------
 Answer:
 
@@ -23,7 +23,7 @@ CD-> Continuous delivery is a software development practice that works in conjun
 
 
 
-Question 3: Benifits of DevOps
+Question No.3 Benifits of DevOps
 -------------------------------------------------------------------------------------------------------------
 Answer: 
 
@@ -36,7 +36,7 @@ Answer:
 
 
 
-Question 4: Difference between Git and GitHub
+Question No.4 Difference between Git and GitHub
 -------------------------------------------------------------------------------------------------------------
 Answer:
 
@@ -45,7 +45,7 @@ Git is a version control system that lets you manage and keep track of your sour
 
 
 
-Question 5: Stages of Git  
+Question No.5 Stages of Git  
 -------------------------------------------------------------------------------------------------------------
 Answer: 
 
@@ -60,7 +60,7 @@ it has three main states that your files can reside in: modified, staged, and co
 
 
 
-Question 6: Explain Git reset
+Question No.6 Explain Git reset
 -------------------------------------------------------------------------------------------------------------
 Answer:
 
