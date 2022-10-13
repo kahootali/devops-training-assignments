@@ -31,16 +31,22 @@ docker run --name assignment-2 -p 9090:80 -d nginx
 docker network create assignment-2 // Creates a custom network named assignment-2
 
 
+![image](https://user-images.githubusercontent.com/95872967/195509686-ae508e20-3a08-4bcd-9856-b824edd2b713.png)
+
+
 
 
 Q5) Write command to see logs of the above container
 ------------------------------------------------------
 docker logs assignment-2                                    
 
+![image](https://user-images.githubusercontent.com/95872967/195509584-0420e6a2-fb33-4516-8a20-ed56c5e1c15b.png)
+
 
 
 
 Q6) Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html
 -----------------------------------------------------------------------------------------------------
+docker exec -it assignment-2 bin/bash/
 
-image.png
+![image](https://user-images.githubusercontent.com/95872967/195509358-eaf16b44-a534-40a2-b539-99ae570deb38.png)
