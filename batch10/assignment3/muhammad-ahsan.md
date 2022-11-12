@@ -4,9 +4,9 @@ Q2) How to leverage cache using Dockerfiles
     As each instruction executed Docker picks image from its cache it doesn't create new image each time
     that is how Docker manage leverage cache. If you don't want to use cache you can use --no-cache=true option.
 Q3) What are multi-stage builds
-    
+    In multi-stage build you can use multiple FROM instruction each start with different base. It is useful for production ready applications. In one docker file you can build more than one docker images.
 Q4) Explain containers vs Image
-
+    
 Q5) Explain RUN vs CMD vs Entrypoint
 
 Q6) Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it
