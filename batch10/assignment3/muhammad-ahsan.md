@@ -55,3 +55,5 @@ Q6) Improve the Dockerfile for python Application given in slides using the Dock
 
 
 Q7) Run mysql container using the official image, by persisting data and passing environment variables to set username & password… You can see the information of how to persist and information here
+    using Volume for data 
+    docker run -d --name inventory-db -e MYSQL_USER=ahsan -e MYSQL_PASSWORD=123 -e MYSQL_ROOT_PASSWORD=321 mysql:latest
