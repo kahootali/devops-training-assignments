@@ -6,7 +6,9 @@ Q2) How to leverage cache using Dockerfiles
 Q3) What are multi-stage builds
     In multi-stage build you can use multiple FROM instruction each start with different base. It is useful for production ready applications. In one docker file you can build more than one docker images.
 Q4) Explain containers vs Image
-    
+    Container is isolated running process and shares kernel of the host Operating System. 
+    Container is running form of an application.
+    Image is packaged form of an application. 
 Q5) Explain RUN vs CMD vs Entrypoint
 
 Q6) Improve the Dockerfile for python Application given in slides using the Dockerfile & then improve it and share image size & estimated build time for it
