@@ -1,11 +1,11 @@
 # Assignment 3
 
-- Create an Issue in this Git repo with Title `Batch <NUMBER> - Assignment <NUMBER> - <FIRST_NAME-LAST_NAME>`
+- Create an Issue in this Git repo with Title `Batch 10 - Assignment 3 - Hassan Shaikh`
 - Fork the Repository
 - Protect your `main` branch so no one can push onto that branch even the administrators.
 - Clone your forked Repository
-- Create a Branch with name `Assignment <NUMBER> - <FIRST_NAME-LAST_NAME>`
-- Create a file in this folder with your `<FIRST_NAME-LAST_NAME>.md`
+- Create a Branch with name `Assignment 3 - HASSAN R. Shaikh`
+- Create a file in this folder with your `HASSANRSHAIKH.md`
 - Answer the following questions or tasks in that file.
 
 Q1) Complete all the labs
